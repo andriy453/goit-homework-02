@@ -13,18 +13,15 @@
     --logo-color:#4D5AE5;
     --logo-heder-color:#2E2F42;
     --logo-footer-color:#F4F4FD;
+    
 }
 a{
     text-decoration: none;}
 
 body{
     background-color:var(--bg-color);
-    box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
      font-family: 'Roboto', sans-serif;
      font-size: 16px;
-     height: 100%;
-     line-height: 1;
      color:var(--color-text-color)
 }
 button{
@@ -34,7 +31,7 @@ button{
     list-style-type: none;
   }
   .logo{
-    font-family: 'Raleway';
+    font-family: 'Raleway'sans-serif;
     font-weight: 800;
     font-size: 18px;
     color:var(--logo-color);
@@ -42,12 +39,9 @@ button{
     letter-spacing: 0.03em;
   }
   .logo2{
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
+   
     color:var(--logo-heder-color);
-    line-height: 1.33;
-    letter-spacing: 0.03em;
+
   }
   .link{
     font-weight: 500;
@@ -67,7 +61,9 @@ button{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--seconari-text-color) ; }
+    color:var(--seconari-text-color) ;
+cursor:default ; }
+
     .meil:hover,
     :focus{
         color: var(--portfolio-buuton-bg-hover-color);
@@ -83,20 +79,20 @@ button{
         color: var(--hero-title-and-button-color);
     }
     .buuton {
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.06em;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: var(--hero-title-and-button-color);
-       background-color: var(--portfolio-buuton-color);
-       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-         
-         border-color: #4D5AE5;
+        color: var(--bg-color);
+        background: var(--portfolio-buuton-color);
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+        border: var(--buuton-color);
+       
     }
     .buuton:hover,
     :focus{
-        background-color: var(--portfolio-buuton-bg-hover-color);
+        
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
     }
@@ -147,7 +143,7 @@ border-radius: 4px;
         .what__item {
         }
         .what__imeg {
-            border: 1px solid #E7E9FC;
+            border: 1px solid var(--footer-text-color);
             background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(2368.jpg);
         }
         .team {
@@ -160,6 +156,7 @@ border-radius: 4px;
         .team__list {
         }
         .team__item {
+            background-color: var(--bg-color);
         }
         .team__photo {
 
@@ -182,8 +179,7 @@ border-radius: 4px;
         .footer {
             background-color: var(--hero-and-footer-bg-color);
         }
-        .logo {
-        }
+        
         .footer-logo {
             font-weight: 800;
             font-size: 18px;
@@ -202,16 +198,17 @@ border-radius: 4px;
 
 }
 .menu__buuton{
+    font-family:'Roboto', sans-serif;
     font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: var(--portfolio-buuton-color);
 background-color: var(--logo-footer-color);
-border: 1px solid #E7E9FC;
+border: 1px solid var(--footer-text-color);
 border-radius: 4px;
 }
-.menu__buuton:hover,
+.menu__buuton
 :focus{
     color: var(--bg-color);
     background-color: var(--portfolio-buuton-bg-hover-color);
@@ -222,9 +219,7 @@ border-radius: 4px;
 .porfolio__item {
 }
 .porfolio__photo {
-    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(4074365.jpg);
-background-blend-mode: soft-light, normal;
-mix-blend-mode: normal;
+   
 }
 .portfolio__title {
     font-weight: 500;
