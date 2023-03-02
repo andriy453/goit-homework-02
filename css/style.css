@@ -31,7 +31,7 @@ button{
     list-style-type: none;
   }
   .logo{
-    font-family: 'Raleway'sans-serif;
+    font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
     color:var(--logo-color);
@@ -62,10 +62,15 @@ button{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--seconari-text-color) ;
-cursor:default ; }
+ 
+font-style: normal;}
 
     .meil:hover,
-    :focus{
+    .meil:focus{
+        color: var(--portfolio-buuton-bg-hover-color);
+    }
+    .tel:hover,
+    .tel:focus{
         color: var(--portfolio-buuton-bg-hover-color);
     }
     .hero{
@@ -78,7 +83,7 @@ cursor:default ; }
         letter-spacing: 0.02em;
         color: var(--hero-title-and-button-color);
     }
-    .buuton {
+    .button {
         font-family: 'Roboto', sans-serif;
         letter-spacing: 0.06em;
         font-weight: 500;
@@ -90,8 +95,7 @@ cursor:default ; }
         border: var(--buuton-color);
        
     }
-    .buuton:hover,
-    :focus{
+    .button:hover, .button:focus{
         
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
@@ -209,7 +213,8 @@ border: 1px solid var(--footer-text-color);
 border-radius: 4px;
 }
 .menu__buuton
-:focus{
+:focus,
+.menu__buuton:hover{
     color: var(--bg-color);
     background-color: var(--portfolio-buuton-bg-hover-color);
 
