@@ -34,7 +34,7 @@ button{
   li{
     list-style-type: none;
   }
-  .Logo{
+  .lo_go{
     font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -43,7 +43,7 @@ button{
     letter-spacing: 0.03em;
     text-transform: uppercase
   }
-  .logo2{
+  .logo_2{
    
     color:var(--logo-heder-color);
 
@@ -196,6 +196,8 @@ border-radius: 4px;
             font-weight: 500;
             font-size: 20px;
             line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: var(--color-text-color);
             letter-spacing: 0.02em;
             color: var(--color-text-color);
         }
