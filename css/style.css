@@ -99,10 +99,11 @@ font-style: normal;}
         line-height: 1.07;
         letter-spacing: 0.02em;
         color: var(--hero-title-and-button-color);
+        text-align: center;
     }
     .button {
         font-family: 'Roboto', sans-serif;
-        letter-spacing: 0.06em;
+        letter-spacing: 0.04em;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -158,6 +159,9 @@ border-radius: 4px;
             line-height: 1.11;
             letter-spacing: 0.02em;
             color: var(--color-text-color);
+            text-align: center;
+            text-transform: capitalize;
+
         }
         .what__list {
         }
@@ -173,6 +177,11 @@ border-radius: 4px;
         .team__title {
             font-weight: 700;
             font-size: 36px;
+            line-height: 1.11;
+            text-align: center;
+            text-align: center;
+            text-transform: capitalize ;
+         
         }
         .team__list {
         }
