@@ -22,7 +22,7 @@ body{
     background-color:var(--bg-color);
      font-family: 'Roboto', sans-serif;
      font-size: 16px;
-     color:var(--color-text-color)
+     color:var(--seconari-text-color)
 }
 button{
     cursor:pointer;
@@ -50,6 +50,7 @@ button{
   }
   .link{
     text-decoration: none;
+   
   }
   .link-heder{
     font-weight: 500;
@@ -59,7 +60,7 @@ button{
     color: var(--color-text-color);
   }
   .link-heder:hover,
-  :focus{
+  .link-heder:focus{
     color: var(--portfolio-buuton-bg-hover-color);
     border: var(--portfolio-buuton-bg-hover-color);
     border-radius: 2px;
@@ -72,9 +73,17 @@ button{
     color:var(--seconari-text-color) ;
  
 font-style: normal;}
+.adres__meil{
+    color:var(--seconari-text-color)
+}
+.adres__tel{
+    color: var(--seconari-text-color);
+   
 
-    .meil:hover,
-    .meil:focus{
+}
+
+    .adres__meil:hover,
+    .adres__meil:focus{
         color: var(--portfolio-buuton-bg-hover-color);
     }
     .tel:hover,
