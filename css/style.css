@@ -215,10 +215,10 @@ border-radius: 4px;
           color: var(--footer-text-color);
         }
 /* portfolio */
-.list{
+.lists{
 
 }
-.list__buuton{
+.lists__buuton{
     font-family:'Roboto', sans-serif;
     font-weight: 500;
 font-size: 16px;
@@ -229,9 +229,9 @@ background-color: var(--logo-footer-color);
 border: 1px solid var(--footer-text-color);
 border-radius: 4px;
 }
-.list__buuton
+.lists__buuton
 :focus,
-.list__buuton:hover{
+.lists__buuton:hover{
     color: var(--bg-color);
     background-color: var(--portfolio-buuton-bg-hover-color);
 
